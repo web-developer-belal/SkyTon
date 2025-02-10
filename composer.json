@@ -1,0 +1,19 @@
+{
+    "name": "skyton/enlangtranslet",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skyton\\Enlangtranslet\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Skyton\\Enlangtranslet\\SessionC"
+        ]
+    }
+},
+    "minimum-stability": "dev",
+    "require": {}
+}
